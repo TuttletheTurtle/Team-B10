@@ -7,7 +7,7 @@ distance = brick.UltrasonicDist(4);
 % so code loops
 while (color ~= 4)
 
-    %loop for movement
+    %loop for movement going to turn left here
     while (distance > 0)
         brick.MoveMotor('AB', -100)
     end
